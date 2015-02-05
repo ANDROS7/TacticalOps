@@ -1,0 +1,19 @@
+name,sequence,file,vol_min,vol_max,vol_mod,pitch_min,pitch_max,dist_min,dist_max,channel,type,probability,loop,masterslave,loadspec,subtitle,compression,secondaryaliasname,volumefalloffcurve,startdelay,speakermap,reverb,lfe percentage,center percentage,platform,envelop_min,envelop_max,envelop percentage,conversion
+
+
+
+weap_m1911colt_clift_plr,,weps/bf4_1911/draw.wav,1,1,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,weapon2,
+
+weap_m1911colt_clipout_plr,,weps/bf4_1911/clipout.wav,1,1,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,weapon2,
+
+weap_m1911colt_clipin_plr,,weps/bf4_1911/clipin.wav,1,1,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,weapon2,
+
+weap_m1911colt_chamber_plr,,weps/bf4_1911/slideforward.wav,1,1,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,weapon2,
+
+weap_bf4_1911_fire_npc,,weps/bf4_1911/shot-1.wav,0.93,0.98,max,1,1.1,35,13780,weapon,,,,0.7,all_mp,,,,weapon4
+weap_bf4_1911_fire_npc,,weps/bf4_1911/shot-1.wav,0.93,0.98,max,1,1.1,35,10600,weapon,,,,0.7,!ac130 all_mp,,,,weapon4
+weap_bf4_1911_fire_plr,,weps/bf4_1911/shot-1.wav,0.93,0.98,wpnplyr,1,1.1,500000,,local,,,,0.85,,,,,weapon2,,,,
+
+weap_bf4_1911_fire_sil_npc,,weps/bf4_1911/silencer shot-1.wav,0.93,0.98,max,1,1.1,35,13780,weapon,,,,0.7,all_mp,,,,weapon4
+weap_bf4_1911_fire_sil_npc,,weps/bf4_1911/silencer shot-1.wav,0.93,0.98,max,1,1.1,35,10600,weapon,,,,0.7,!ac130 all_mp,,,,weapon4
+weap_bf4_1911_fire_sil_plr,,weps/bf4_1911/silencer shot-1.wav,0.93,0.98,wpnplyr,1,1.1,500000,,local,,,,0.85,,,,,weapon2,,,,

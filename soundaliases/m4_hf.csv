@@ -1,0 +1,25 @@
+name,sequence,file,vol_min,vol_max,vol_mod,pitch_min,pitch_max,dist_min,dist_max,channel,type,probability,loop,masterslave,loadspec,subtitle,compression,secondaryaliasname,volumefalloffcurve,startdelay,speakermap,reverb,lfe percentage,center percentage,platform,envelop_min,envelop_max,envelop percentage,conversion
+
+
+,M4 HF
+
+
+weap_hf_m4_clip_out_plr,,weps/m4_hf/weap_hf_m4_clip_out.wav,0.75,0.8,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,weapon2,100
+weap_hf_m4_clip_in_plr,,weps/m4_hf/weap_hf_m4_clip_in.wav,0.65,0.7,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,weapon2,100
+weap_hf_m4_chamber_plr,,weps/m4_hf/weap_hf_m4_chamber.wav,0.55,0.6,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,weapon2,100
+
+weap_hf_m4_fire_plr,,weps/m4_hf/weap_hf_m4_fire.wav,1,1,wpnplyr,1,1,500000,,local,,,,0.85,,,,,weapon2,,,,
+
+weap_hf_m4_fire_npc,,weps/m4_hf/weap_hf_m4_fire.wav,0.74,0.8,wpnai,1,1,35,8400,weapon,,,,0.7,!ac130 all_mp,,,,weapon4
+weap_hf_m4_fire_npc,,weps/m4_hf/weap_hf_m4_fire.wav,0.74,0.8,wpnai,1,1,35,10920,weapon,,,,0.7,all_mp,,,,weapon4
+
+
+weap_hf_m4_fire_sil_plr,,weps/m4_hf/weap_hf_m4_fire_sil.wav,0.9,1,wpnplyr,1,1,500000,,local,,,,0.85,,,,,weapon2,,,,
+
+weap_hf_m4_fire_sil_npc,,weps/m4_hf/weap_hf_m4_fire_sil.wav,0.9,1,wpnai,1,1,35,8400,weapon,,,,0.7,!ac130 all_mp,,,,weapon4
+weap_hf_m4_fire_sil_npc,,weps/m4_hf/weap_hf_m4_fire_sil.wav,0.9,1,wpnai,1,1,35,2000,weapon,,,,0.7,all_mp,,,,weapon4
+
+
+
+
+weap_hf_m4_reload_npc,,weps/m4_hf/weap_hf_m4_clip_out.wav,0.55,0.6,wpnai,1,1,7,500,reload,,,,0.7,all_mp,,,weap_miniuzi_clipin_npc,weapon2,50
